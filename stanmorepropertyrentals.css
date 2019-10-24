@@ -1,0 +1,267 @@
+﻿* {
+	margin: 0em;
+	padding: 0em;
+	font-size: 100%;
+	border-style: none;
+	list-style-type: none;
+}
+body{
+	font-family: 'Open Sans',helvetica,calibri,arial,sans-serif;
+	background-color:#fffefe;		
+}
+
+#wrapper{
+	background-color:#2a3c4b;
+	color:#fffefe;
+	max-width:900px;
+	min-width:768px;
+	margin:50px auto auto auto;
+}
+
+header img{
+	width:100%;
+	max-width:900px;
+	height:auto;
+	
+	
+}
+#responsive-menu  .menu-icon {      /* responsive MENU */
+display: none;
+width: 100%;
+}
+
+#responsive-menu  .menu-icon a {      /* responsive MENU */
+width: 100%;
+display: inline-block;
+color: #000;
+text-decoration: none;
+font-weight: bold;
+font-size: 20px;
+}
+
+#responsive-menu  .menu-icon img {      /* responsive MENU */
+vertical-align: bottom;
+}
+
+nav{
+	
+	
+	
+	background-color:#33516e;
+	
+	
+	
+}
+nav ul{
+	display:flex;
+	padding-top:10px;
+	justify-content:space-between;
+	color:#fffefe;
+	margin: 0px 10px;
+}
+nav ul li a{
+	color:#fffefe;
+	padding:20px;
+	text-decoration:none;
+}
+nav ul li a:hover {
+  color:#d0e925;
+}
+#inner-wrapper{
+	max-width:900px;
+	margin:auto;
+	padding-bottom:10px;
+	background:linear-gradient(#324f6b, #2a3c4b); 
+	padding-top:40px;
+}
+
+
+main{
+	
+	margin-left:30px;
+	margin-right:50px;
+	display:flex;
+	justify-content:space-between;
+	font-size:13px;
+}
+
+
+h1 {
+  font-size:20px;
+  font-weight:600;
+  color:#d0e925; 
+  margin-bottom:15px;
+  background-color:rgba(255,255,255,0.3)
+}
+
+h2{
+	font-size:15px;
+	font-weight:700;
+	margin:15px auto;
+}	
+
+section{
+	margin-right:30px;
+   max-width:50%;
+}
+figure{
+	max-width:450px;
+	width: 100%;
+}
+
+section ul li{
+	list-style-type: square;
+	margin-left:16px;
+}
+figure img{
+	max-width:450px;
+	height:auto;
+	width:100%;
+}
+caption {
+  margin: 13px 0px ;
+  text-align:left;
+}
+
+
+table{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:100%;
+	text-align:left;
+}
+
+p a{
+	text-decoration:none;
+	color:#d0e925;
+}
+
+p a:hover{
+	text-decoration:underline;
+}
+
+figcaption{
+	margin-top:20px; 
+	margin-right:20px;
+}
+
+figcaption a{
+	text-decoration:none;
+	color:#d0e925;
+}
+figcaption a:hover{
+	text-decoration:underline;
+}
+
+footer {
+	
+	width: 600px;
+	margin: auto;
+}
+
+footer ul{
+	display:flex;
+	justify-content:space-between;
+}
+footer ul li{
+	margin-right:30px;
+	margin-top:30px;
+	font-size:12px;
+}
+footer a:hover{
+	text-decoration:underline;
+}
+
+footer a{
+	
+text-decoration:none;
+margin-left:20px;
+color:#fffefe;
+}
+
+
+    @media screen and (max-width: 480px) {    /* responsive design for SMART PHONES */ 
+
+	#wrapper {
+	margin: 0px;   
+	min-width: 320px; 
+	}
+
+	#inner-wrapper {
+	padding: 3% 5%;
+	}
+	#responsive-menu {
+	background-color:#324f6b;
+	}
+
+	#responsive-menu  .menu {   /* responsive MENU */
+	max-height: 0;
+	overflow: hidden;
+	float: none;
+	width: 100%;
+	transition: max-height 0.5s;
+	}
+
+	#responsive-menu  .menu.menu-open {   /* responsive MENU */
+	max-height: 1000px;
+	transition: max-height 0.5s;
+	
+	
+	}
+
+	#responsive-menu  .menu-icon {   /* responsive MENU */
+	display: inline-block;
+	margin-left:20px;
+	margin-top:10px;
+	}
+
+	nav {    /*  insert a suitable top margin  */
+		
+	}
+	nav ul {
+	flex-flow: column wrap;  
+	margin: 0px;	
+	} 
+
+	nav li {   /*  insert a suitable top margin  */
+	
+	
+	font-size: 83%;
+	margin-top:12px;
+	}
+
+	main {   /*  insert a suitable top margin  */
+	flex-flow: column wrap;  
+	margin: 0px;
+	}
+	section{
+	max-width:100%;
+	}
+	figure{
+		margin-top:10px;
+	}
+	footer {   /*  insert text align for center  */
+	width: 100%;
+	text-align: center;
+	clear: both;
+	}
+
+	footer ul {
+	flex-flow: column ;  
+	margin-top: 20px;
+	} 
+
+	footer li {   /*  insert a suitable top margin  */
+
+	}
+	footer a {
+
+	}
+	
+	
+    }    /* closes 480px break point */
+
+
+
+
+
